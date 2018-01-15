@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block style %}
+	<link rel="stylesheet" type="text/css" href="./static/css/staff.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/piano.css">
+{% endblock style %}
+
+{% block scripts %}
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./static/js/keyboard.js"></script>
+{% endblock scripts %}
+
+{% block keyboard %}
+{% include "partials/notes.html" %}
+	<div id="keyboard">
+		<div class="white"><p>C</p></div>
+		<div class="black"><p>C&sharp;<br> D&flat;</p></div>
+		<div class="white"><p>D</p></div>
+		<div class="black"><p>D&sharp;<br> E&flat;</p></div>
+		<div class="white"><p>E</p></div>
+		<div class="white"><p>F</p></div>
+		<div class="black"><p>F&sharp;<br> G&flat;</p></div>
+		<div class="white"><p>G</p></div>
+		<div class="black"><p>G&sharp;<br> A&flat;</p></div>
+		<div class="white"><p>A</p></div>
+		<div class="black"><p>A&sharp;<br> B&flat;</p></div>
+		<div class="white"><p>B</p></div>
+	</div>
+{% endblock keyboard %}
