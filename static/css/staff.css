@@ -1,12 +1,14 @@
 html{
 	font-size:10px;
-	background-color: black;
 }
 
 #staff{
 	width: 65rem;
+	position: relative;
+	top: 2rem;
 }
 
 #note{
-	width: 10rem;
+	width: 6rem;
+	position: absolute;
 }
