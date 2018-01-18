@@ -4,6 +4,8 @@
 }*/
 #keyboard{
 	position:relative;
+	width: 49rem;
+    margin: 0 auto;
 }
 html{
 	font-size:12px;
